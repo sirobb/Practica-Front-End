@@ -1,0 +1,57 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";
+
+/* este es el loader */
+  .lds-dual-ring, .global-errors {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .lds-dual-ring.hidden, .global-errors.hidden{
+      display: none;
+  }
+
+  .lds-dual-ring:after {
+    box-sizing: border-box;
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 50%;
+    left: 50%;
+    margin: -32px 0 0 -32px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: rgb(62, 133, 192) transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* cards */
+.card { margin:  40px auto;;}
+
+/* .global-errors */
+.global-errors{
+  padding: 20% 10%;
+}
+
+/* nuevo anuncio o login */
+.new-anuncio{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+  

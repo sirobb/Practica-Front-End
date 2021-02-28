@@ -1,0 +1,56 @@
+{
+    "users": [{
+        "username": "boris.alarco@gmail.com",
+        "password": "$2b$10$R2pdGIKDA2/c/Lyo7aAa3.sp/bpKvUdgu6QwcCLRiaMud73sRYd/e",
+        "id": 1
+    }, {
+        "username": "boris.alarco1@gmail.com",
+        "password": "$2b$10$R2pdGIKDA2/c/Lyo7aAa3.sp/bpKvUdgu6QwcCLRiaMud73sRYd/e",
+        "id": 2
+    }, {
+        "username": "luke@startwars.com",
+        "password": "$2b$10$vH8S3cMhX.l94tGqOpCLlupnxKxnA6kAcISofyNgOJKRDUpo/ZXRK",
+        "id": 3
+    }],
+    "anuncios": [{
+        "price": "55",
+        "name": "Batman: Arkham Origins",
+        "condition": "Venta",
+        "image": "http://127.0.0.1:8000//file-1614452737451.jpg",
+        "userId": 1,
+        "updatedAt": "2021-02-27T19:05:37.526Z",
+        "id": 4
+    }, {
+        "price": "60",
+        "name": "Mad Max",
+        "condition": "Venta",
+        "image": "http://127.0.0.1:8000//file-1614521618291.jpg",
+        "userId": 1,
+        "updatedAt": "2021-02-28T14:13:38.310Z",
+        "id": 5
+    }, {
+        "price": "100",
+        "name": "FIFA21",
+        "condition": "Compra",
+        "image": "http://127.0.0.1:8000//file-1614526232978.jpg",
+        "userId": 3,
+        "updatedAt": "2021-02-28T15:30:32.995Z",
+        "id": 6
+    }, {
+        "price": "15",
+        "name": "Top Gear",
+        "condition": "Venta",
+        "image": "http://127.0.0.1:8000//file-1614529738555.jpg",
+        "userId": 3,
+        "updatedAt": "2021-02-28T16:28:58.568Z",
+        "id": 7
+    }, {
+        "price": "100",
+        "name": "Super starwars",
+        "condition": "Venta",
+        "image": "http://127.0.0.1:8000//file-1614529909159.jpg",
+        "userId": 3,
+        "updatedAt": "2021-02-28T16:31:49.176Z",
+        "id": 8
+    }]
+}
